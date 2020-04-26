@@ -29,7 +29,7 @@ Sistem Informasi Manajemen Keuangan Sekolah
 <li>Export Rekap Uang Masuk dan Keluar ke Pdf</li>
 <li>Manajemen Database dengan sistem serverSide agar aplikasi ringan jika data sudah banyak</li>
 <li>Grafik Uang Masuk dan Keluar</li>
-<li>Crud Ajax</li>
+<li>Crud Ajax dengan JQuery Validation</li>
 </ol>
 
 Sekian, Semoga Membantu.. :)
