@@ -127,8 +127,8 @@ class Auth extends CI_Controller {
 		$config = [
 			'protocol' 	=>	'smtp',
 			'smtp_host'	=>	'ssl://smtp.gmail.com',
-			'smtp_user'	=>	'psuliandri@gmail.com',
-			'smtp_pass'	=>	'LupaKata1.',
+			'smtp_user'	=>	'Your Email',
+			'smtp_pass'	=>	'Your Password',
 			'smtp_port'	=>	465,
 			'mailtype'	=>	'html',
 			'charset'	=>	'utf-8',
@@ -136,7 +136,7 @@ class Auth extends CI_Controller {
 		];
 
 		$this->load->library('email', $config);
-		$this->email->from('psuliandri@gmail.com','Layanan Aktivasi Akun');
+		$this->email->from('Your Email','Layanan Aktivasi Akun');
 		$this->email->to($this->input->post('email'));
 
 		if ($type == 'verify'){
